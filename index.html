@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel='stylesheet' href='./styles.css'>
+    <script rel='text' src='./main.js'></script>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+</head>
+
+<body>
+
+    <!-- nav  -->
+
+
+    <header>
+        <div class='logo'>
+
+            <img src="https://static.ivanti.com/sites/marketing/media/images/logos/ivanti-logo-header-black-red-accent.svg"
+                alt="Ivanti"></div>
+
+        <nav class="main-nav">
+            <ul class="main-menu-lg">
+                <li class="nav-menu-solutions">
+                    <a href="#" class="">Solutions</a>
+                </li>
+                <li class="nav-menu-products">
+                    <a href="#" class="">Products</a>
+                </li>
+                <li class="nav-menu-services">
+                    <a href="#" class="">Services</a>
+                </li>
+                <li class="nav-menu-support">
+                    <a href="#" class="">Support</a>
+                </li>
+                <li class="nav-menu-resources">
+                    <a href="#" class="">Resources</a>
+                </li>
+                <li class="nav-menu-partners">
+                    <a href="#" class="">Partners</a>
+                </li>
+                <li class="nav-menu-company">
+                    <a href="#" class="">Company</a>
+                </li>
+                <a href="https://go.ivanti.com/Web-Quote.html" target="_blank" rel="noopener"
+                    class="alizarin-crimson-hover-white-button button hidden-lg-down red-white-button"><span>REQUEST A
+                        QUOTE</span></a>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- first view -->
+
+    <section class=' section hero' id='hero'>
+
+        <div class="container hero-container">
+
+            <div class='hero1'>
+               
+               <div class='hero-text-container'>
+                <h2>
+                    <span>THE POWER </span>
+                </h2>
+                <h2>
+                    <span>OF UNIFED IT</span>
+                </h2>
+
+                </h2>
+                <p><span>78 of the Fortune 100 trust Ivanti. We help them respond to user demands, comply
+                        with
+                        regulations, and secure their organizations—all while reducing costs.</span>
+                </p>
+
+                <a class='alizarin-crimson-hover-white-button red-white-button' <h1> hey there</h1>
+                </a>
+            </div>
+
+                <div class='animation-container'>
+
+
+                    <div class="animation" id='race'>
+
+                        <svg width="23px" height="32px" viewBox="0 0 23 32" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" id="Wireframe">
+                                <g transform="translate(-54.000000, -634.000000)" stroke="#ffffff" stroke-width="1.2"
+                                    id="Ivanti-Landing-01b">
+                                    <g transform="translate(54.000000, 634.000000)" id="Group-2-Copy">
+                                        <g id="Page-1"></g>
+                                        <path
+                                            d="M11.3055556,31 C5.39855556,31 0.611111111,26.3285385 0.611111111,20.5673077 L0.611111111,11.0288462 C0.611111111,5.26761538 5.39855556,0.596153846 11.3055556,0.596153846 C17.2125556,0.596153846 22,5.26761538 22,11.0288462 L22,20.5673077 C22,26.3285385 17.2125556,31 11.3055556,31 Z"
+                                            id="Stroke-1"></path>
+                                    </g>
+                                </g>
+                            </g>
+                            </g>
+                        </svg></div>
+
+                </div>
+            </div>
+
+            <div class="hero2">
+                <div class="animation-wrap">
+                    <img id='computer' src="https://static.ivanti.com/sites/marketing/media/images/home/section-hero-left-box-scroll-animation-icons-computer-workspaces.png"
+                        alt="This computer shows Ivanti's Workspaces." class="fixed-computer">
+                    <img  class='animation' id='animate1' src="https://static.ivanti.com/sites/marketing/media/images/icons/red-dkred-white/angled-icons-pie-chart-tricolor.png"
+                        alt="Ivanti has charts to help with IT management." class="fixed-icon1 fixed-icon">
+                    <img   class='animation' id='animate2' src="https://static.ivanti.com/sites/marketing/media/images/icons/red-dkred-white/angled-icons-line-graph-tricolor.png"
+                        alt="Ivanti improved reporting" class="fixed-icon2 fixed-icon">
+                    <img  class='animation' id='animate3' src="https://static.ivanti.com/sites/marketing/media/images/icons/red-dkred-white/angled-icons-shield-tricolor.png"
+                        alt="Ivanti's security shield." class="fixed-icon3 fixed-icon">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- moving list that slides -->
+
+
+
+    <!-- unifed IT Management -->
+
+
+    <!-- solution for every problem  -->
+
+
+
+    <!-- clients and quotes  -->
+
+
+
+    <!-- give us a call -->
+
+
+
+    <!-- footer   -->
+
+    <script>
+
+        $(document).ready(function () {
+
+
+
+
+
+            $('.red-white-button').mouseenter(function () {
+
+                $(this).css({ 'background': 'white', "color": 'red', 'box-sizing': 'border-box', 'transition': '.3s ease-in', 'border': '3px solid red' })
+            })
+
+
+            $('.red-white-button').mouseleave(function () {
+
+                $(this).css({ 'background': 'red', "color": 'white', 'box-sizing': 'border-box', 'transition': '.3s ease-in', 'border': '3px solid red' })
+            })
+
+
+            $(".scroll").click(function () {
+                $("#race").animate({ top: "300px" });
+            });
+
+
+        })
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+
+
+</html>
